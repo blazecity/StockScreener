@@ -1,0 +1,16 @@
+.summary {
+    border: 1px solid var(--general-theme-color);
+    background-color: white;
+    padding: 15px;
+    line-height: 1.6;
+    overflow-y: scroll;
+    display: flex;
+}
+
+.loading {
+    justify-content: center;
+}
+
+.no_summary {
+    font-size: 2em;
+}

@@ -1,0 +1,101 @@
+.stock_table {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: scroll;
+    border: 1px solid var(--general-theme-color);
+}
+
+.loading {
+    justify-content: center;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    background-color: white;
+}
+
+th { 
+    position: sticky;
+    z-index: 10;
+    background: var(--general-theme-color);
+    color: black;
+    top: 0;
+    text-align: left;
+    padding: 8px;
+    vertical-align: top;
+}
+
+th:hover {
+    cursor: pointer;
+}
+
+col_fiftyTwoWeekComp {
+    height: 20px;
+}
+
+.w5 {
+    width: 5%;
+}
+
+.w7 {
+    width: 7%;
+}
+
+.w8 {
+    width: 8%;
+}
+
+.w10 {
+    width: 10%;
+}
+
+.w12 {
+    width: 10%;
+}
+
+.w15 {
+    width: 15%;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+td {
+    padding: 4px 8px 4px 8px;
+}
+
+thead {
+    border: 1px solid black;
+    margin-bottom: 4px;
+}
+
+.table_row:hover {
+    background-color: #d6d5dd;
+    cursor: pointer;
+}
+
+.col_number {
+    text-align: right;
+}
+
+.multiline_label {
+    display: block;
+}
+
+.no_data {
+    font-size: 30px;
+    margin-top: 50px;
+    align-self: center;
+}
+
+.red {
+    color: red;
+}

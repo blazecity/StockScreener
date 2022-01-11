@@ -1,0 +1,7 @@
+.spider_chart_summary_grid {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 70% 1fr;
+    column-gap: 10px;
+    grid-template-rows: 1fr;
+}

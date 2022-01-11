@@ -1,0 +1,12 @@
+.overlay {
+    margin: auto 0;
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    align-self: center;
+}
+
+.no_overlay {
+    position: fixed;
+    display: none;
+}

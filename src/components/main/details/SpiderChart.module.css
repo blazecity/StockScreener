@@ -1,0 +1,16 @@
+.spider_chart_container {
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid var(--general-theme-color);
+    justify-content: center;
+    align-content: center;
+}
+
+.spider_chart {
+    width: 75%;
+}
+
+.spider_chart_legend {
+    width: 25%;
+}

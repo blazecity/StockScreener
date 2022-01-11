@@ -1,0 +1,8 @@
+.market_overview_map_grid {
+    grid-row: 2;
+    margin-bottom: 10px;
+}
+
+.stock_table_grid {
+    grid-row: 3;
+}

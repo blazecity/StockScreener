@@ -1,0 +1,44 @@
+.white_font {
+    color: white;
+}
+
+.app_container {
+    padding-top: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.general_title {
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.general_container {
+    padding: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p, ul, li {
+    font-size: 1rem;
+    margin: 5px 0px;
+}
+
+strong {
+    font-size: 1rem;
+}
+
+code {
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    padding: 2px 5px;
+    margin: 2px;
+}

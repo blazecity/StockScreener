@@ -1,0 +1,74 @@
+form {
+    display: flex;
+    background-color: var(--general-theme-color);
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: flex-end;
+}
+
+.form_item {
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+}
+
+label {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+input {
+    margin-top: 1px;
+    border: none;
+    width: 100%;
+    outline: 0;
+    padding: 10px 5px 10px 10px;
+    font: inherit;
+}
+
+.label_no_tooltip {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.label_tooltip {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 4px;
+}
+
+.tooltip_questionmark {
+    display: inline-block;
+    position: relative;
+    cursor: help;
+}
+
+.tooltip_questionmark .tooltiptext {
+    visibility: hidden;
+    background-color: #f5f5f5;
+    width: 220px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    margin: 10px;
+    color: black;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+.tooltip_questionmark:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltiptext_title {
+    font-weight: bold;
+    display: block;
+}
+
+.tooltiptext_content {
+    display: block;
+}
